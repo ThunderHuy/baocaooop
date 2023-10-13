@@ -1,0 +1,10 @@
+CREATE DATABASE QL_CLB;
+USE QL_CLB
+CREATE TABLE CLB
+	(
+	TenCauLacBo nvarchar(50) not null Primary key,
+	TenNuoc nvarchar(50),
+	SoLuongVe int,
+	GiaVe money,
+	TongTien money,
+	)
